@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Application", "CleanArchitecture.Application", "{608276DC-FBEF-414E-89C0-DF331E00B665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Domain", "CleanArchitecture.Domain", "{DC3E68B1-83AE-41BE-B483-F55E434363B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.infrastructure.Data", "CleanArchitecture.infrastructure.Data", "{B67A8C19-7969-4EE8-B00D-3194768D85DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.infrastructure.IOC", "CleanArchitecture.infrastructure.IOC", "{207FCBE4-0BA7-4204-AADC-C9C329C52CF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.IU.MVC", "CleanArchitecture.IU.MVC", "{9EA8EB21-F10C-4B03-AF3F-47EAE9BF1B28}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
