@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Application", "Application\CleanArchitecture.Application.csproj", "{914AC60E-8EF9-4E58-A3C7-E5A60C26524B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure.IoC", "Infrastructure.IoC\CleanArchitecture.Infrastructure.IoC.csproj", "{99BF67F1-FEDC-4E94-97B4-88D7805AA83D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastructure.IoC", "Infrastructure.IoC\CleanArchitecture.Infrastructure.IoC.csproj", "{99BF67F1-FEDC-4E94-97B4-88D7805AA83D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A40ED2AB-F5C3-4463-8516-07FF0BD06072}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Bus", "Infrastructure.Bus", "{269DD581-2EA1-4F2E-B683-0C432A48B25E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
