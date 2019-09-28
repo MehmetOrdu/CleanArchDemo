@@ -15,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using CleanArchitecture.Infrastructure.Data.Context;
 using CleanArchitecture.Infrastructure.IoC;
+using MediatR;
 
 namespace CleanArchitecture.Mvc
 {
@@ -49,6 +50,7 @@ namespace CleanArchitecture.Mvc
                 options.UseSqlServer(Configuration.GetConnectionString("UniversityDBConnection"));
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMediatR(typeof(Startup));
             RegisterServices(services);
         }
 
