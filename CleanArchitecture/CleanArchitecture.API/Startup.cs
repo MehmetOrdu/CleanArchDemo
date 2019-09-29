@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanArchitecture.API.Configrations;
 using CleanArchitecture.Infrastructure.Data.Context;
 using CleanArchitecture.Infrastructure.IoC;
 using MediatR;
@@ -38,7 +39,11 @@ namespace CleanArchitecture.API
             {
                 c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "University Api", Version = "V1" });
             });
+
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
+
             RegisterServices(services);
         }
 

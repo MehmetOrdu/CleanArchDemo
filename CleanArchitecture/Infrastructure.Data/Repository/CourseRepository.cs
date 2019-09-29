@@ -3,6 +3,7 @@ using CleanArchitecture.Domain.Models;
 using CleanArchitecture.Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CleanArchitecture.Infrastructure.Data.Repository
@@ -22,7 +23,7 @@ namespace CleanArchitecture.Infrastructure.Data.Repository
 
         }
 
-        public IEnumerable<Course> GetCourses()
+        public IQueryable<Course> GetCourses()
         {
             return _dBContext.Courses;
         }
